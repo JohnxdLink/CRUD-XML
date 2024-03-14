@@ -2,8 +2,8 @@
     "user": [
         {
             "id": "1",
-            "firstname": "admin",
-            "lastname": "admin",
+            "firstname": "John",
+            "lastname": "Castro",
             "address": "Cebu"
         },
         {
@@ -29,6 +29,24 @@
             "firstname": "Ralph",
             "lastname": "Tito",
             "address": "Compostela"
+        },
+        {
+            "id": "65f2d6047b3fc",
+            "firstname": "Hela",
+            "lastname": "Odinson",
+            "address": "Asgard"
+        },
+        {
+            "id": "6",
+            "firstname": "Artix",
+            "lastname": "Kreiger",
+            "address": "Galanoth"
+        },
+        {
+            "id": "65f36c321bda3",
+            "firstname": "Aprilxd",
+            "lastname": "Arpil",
+            "address": "Carmen"
         }
     ]
 }

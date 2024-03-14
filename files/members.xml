@@ -2,8 +2,8 @@
 <users>
   <user>
     <id>1</id>
-    <firstname>admin</firstname>
-    <lastname>admin</lastname>
+    <firstname>John</firstname>
+    <lastname>Castro</lastname>
     <address>Cebu</address>
   </user>
   <user>
@@ -33,7 +33,19 @@
   <user>
     <id>65f2d6047b3fc</id>
     <firstname>Hela</firstname>
-    <lastname>Odin</lastname>
+    <lastname>Odinson</lastname>
     <address>Asgard</address>
+  </user>
+  <user>
+    <id>6</id>
+    <firstname>Artix</firstname>
+    <lastname>Kreiger</lastname>
+    <address>Galanoth</address>
+  </user>
+  <user>
+    <id>65f36c321bda3</id>
+    <firstname>Aprilxd</firstname>
+    <lastname>Arpil</lastname>
+    <address>Carmen</address>
   </user>
 </users>
