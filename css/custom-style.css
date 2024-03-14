@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 div.custom-header {
    width: 100vw;
    padding: 0px 10px 0px 10px;
@@ -24,4 +36,51 @@ div.left-sect__right {
    flex-direction: row;
    align-items: center;
    gap: 10px;
+}
+
+button.right__btn-nav {
+   font-size: 1.7rem;
+   font-weight: bold;
+   background-color: transparent;
+   border: none;
+   transition: 0.3s;
+}
+
+button.right__btn-nav:hover {
+   color: #007bff;
+}
+
+/* ! Main Container */
+div.container {
+   height: 80vh;
+   overflow: auto;
+}
+
+/* ! Custom Container */
+div.custom-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+form.custom-container__form {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+button.custom-container__btn {
+   padding: 10px 20px;
+   background-color: transparent;
+   color: #0056b3;
+   border: none;
+   cursor: pointer;
+   border-radius: 10px;
+   box-shadow: 4px 6px 10px #114377;
+   transition: 0.4s;
+}
+
+button.custom-container__btn:hover {
+   background-color: #007bff;
+   color: #ffffff;
 }

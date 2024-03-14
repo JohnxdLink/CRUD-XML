@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       // Add new user
       $user = $accounts->addChild('user');
-      $user->addChild('id', $timestamp); // Use timestamp as ID
+      $user->addChild('id', $userID); // Use timestamp as ID
       $user->addChild('firstname', $username);
       $user->addChild('lastname', $password);
       $user->addChild('address', $address);

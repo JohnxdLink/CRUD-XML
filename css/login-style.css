@@ -1,0 +1,107 @@
+@import url('w3-animation.css');
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+header.h-content {
+   padding: 0px 10px 0px 10px;
+   height: 10vh;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+img.h-content__logo {
+   width: 50px;
+   height: 50px;
+}
+
+main.whole-content {
+   height: 90vh;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   overflow: hidden;
+}
+
+img.left-illustration {
+   width: 700px;
+   height: 700px;
+}
+
+/* ! Login Layout */
+form.section-form__login-register {
+   background-color: #b5cef3;
+   padding: 20px;
+   border-radius: 10px;
+   width: 430px;
+   margin: 0 auto;
+}
+
+h1.section-form__login-register--header {
+   color: #007bff;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+label.section-form__login-register--lbl {
+   color: #007bff;
+}
+
+input.section-form__login-register--input {
+   width: 100%;
+   padding: 10px;
+   margin: 8px 0;
+   border: 1px solid #007bff;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+input.section-form__login-register--input:focus {
+   outline: none;
+   border-color: #0056b3;
+}
+
+button.section-form__login-register--submit-btn {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 100%;
+}
+
+button.section-form__login-register--submit-btn:hover {
+   background-color: #0056b3;
+}
+
+button.section-form__login-reg-btn {
+   padding: 10px 20px;
+   background-color: transparent;
+   color: #0056b3;
+   border: none;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: 0.4s;
+}
+
+button.section-form__login-reg-btn:hover {
+   background-color: #007bff;
+   color: #ffffff;
+}

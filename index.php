@@ -18,24 +18,24 @@
 
             <div class="left-sect__right">
                 <div>
-                    <button>Home</button>
+                    <button class="right__btn-nav" onclick="refreshMainIndex()">Home</button>
                 </div>
                 <div>
-                    <button id="loginButton" onclick="redirectToLoginPage()">Login</button>
+                    <button id="loginButton" class="right__btn-nav" onclick="redirectToLoginPage()">Login</button>
                 </div>
                 <div>
-                    <button>About</button>
+                    <button class="right__btn-nav">About</button>
                 </div>
             </div>
         </div>
 
         <div class="custom-header__right-sect">
-            <button id="jsonButton" onclick="redirectToJsonPage()">Json Page</button>
+            <button id="jsonButton" class="right__btn-nav" onclick="redirectToJsonPage()">Json Page</button>
         </div>
     </div>
 
     <div class="container">
-        <h1 class="page-header text-center">CRUD Operation in XML Files using PHP</h1>
+        <h3 class="page-header text-center">CRUD Operation in XML Files using PHP</h3>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
                 <a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
@@ -89,9 +89,13 @@
 
     <div class="custom-container">
         <section>
-            <form action="controllers/save_delete_json.php" method="post">
-                <button type="submit" name="save_json">Save JSON Format</button>
-                <button type="submit" name="delete_json">Delete JSON File</button>
+            <form class="custom-container__form" action="controllers/save_delete_json.php" method="post">
+                <div>
+                    <button class="custom-container__btn btn__form-save" type="submit" name="save_json">Save JSON Format</button>
+                </div>
+                <div>
+                    <button class="custom-container__btn btn__form-delete" type="submit" name="delete_json">Delete JSON File</button>
+                </div>
             </form>
         </section>
     </div>
