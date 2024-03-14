@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <id>1</id>
+    <firstname>admin</firstname>
+    <lastname>admin</lastname>
+    <address>Cebu</address>
+  </user>
+  <user>
+    <id>2</id>
+    <firstname>Jason</firstname>
+    <lastname>Igot</lastname>
+    <address>Liloan</address>
+  </user>
+  <user>
+    <id>65f26083b097f</id>
+    <firstname>asdada</firstname>
+    <lastname>dadsadads</lastname>
+    <address>Liloan</address>
+  </user>
+  <user>
+    <id>65f26240f3c73</id>
+    <firstname>Link</firstname>
+    <lastname>Zelda</lastname>
+    <address>Hyrule</address>
+  </user>
+</users>

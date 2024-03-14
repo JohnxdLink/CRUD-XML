@@ -1,0 +1,28 @@
+{
+    "user": [
+        {
+            "id": "1",
+            "firstname": "admin",
+            "lastname": "admin",
+            "address": "Cebu"
+        },
+        {
+            "id": "2",
+            "firstname": "Jason",
+            "lastname": "Igot",
+            "address": "Liloan"
+        },
+        {
+            "id": "65f26083b097f",
+            "firstname": "asdada",
+            "lastname": "dadsadads",
+            "address": "Liloan"
+        },
+        {
+            "id": "65f26240f3c73",
+            "firstname": "Link",
+            "lastname": "Zelda",
+            "address": "Hyrule"
+        }
+    ]
+}
